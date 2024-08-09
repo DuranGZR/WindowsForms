@@ -21,5 +21,16 @@ namespace WindowsForms
         {
 
         }
+
+        private void lbl_isim_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //Form çalıştığı zamzan bu methot çalışır.
+            lbl_deger.Text = "Enes";
+        }
     }
 }
